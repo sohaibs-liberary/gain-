@@ -191,6 +191,8 @@ const App = () => {
                 <Route path="make-invoices" element={<><MakeInvoices /></>} />
                 <Route path="community" element={<Community />} />
                 <Route path="post-success" element={<><PostSuccess /></>} />
+                <Route path="tracker" element={<Invites />} />
+
               </Routes>
             </div>
           </>
