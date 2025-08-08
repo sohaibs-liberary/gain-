@@ -6,6 +6,7 @@ const menuItems = [
   { name: 'Home', icon: <Home size={24} color="#313131" />, route: '/talent/home/' },
   { name: 'Jobs', icon: <Briefcase size={24} color="#313131" />, route: '/talent/jobs/' },
   { name: 'Projects', icon: <Users size={24} color="#313131" />, route: '/talent/projects/' },
+  { name: 'Tracker', icon: <Users size={24} color="#313131" />, route: '/talent/Tracker/' },
   { name: 'Courses', icon: <GraduationCap size={24} color="#313131" />, route: '/talent/explore-course' },
   { name: 'Community', icon: <Globe size={24} color="#313131" />, route: '/talent/community' },
   { name: 'Earnings', icon: <Wallet size={24} color="#313131" />, route: '/talent/my-invoices' }
