@@ -81,6 +81,10 @@ import Visit from "./Client/Pages/visitprofile.jsx"
 import ClientJobDetails from "./Client/Pages/clientsjobdetails.jsx";
 import ClientProjectDetails from "./Client/Pages/projectdetailsclient.jsx";
 import FirmProfile from "./profile/firm.jsx";
+import TalentInvites from './Talent/Pages/Tracker/invites.jsx';
+import Talentmyjobs from './Talent/Pages/Tracker/myjobs.jsx';
+import TalentInvoices from './Talent/Pages/Tracker/invoice.jsx';
+
 
 const App = () => {
   return (
@@ -158,6 +162,15 @@ const App = () => {
                 <Route path="my-invoices" element={<><Invoice /></>} />
                 <Route path="make-invoices" element={<><MakeInvoices /></>} />
                 <Route path="post-success" element={<><PostSuccess /></>} />
+ 
+{/**  Tracker 
+                <Route path="tracker" element={<ClientTracker />} />
+                <Route path="applications" element={<ClientApplication />} />
+                <Route path="joboffers" element={<Offers />} />
+                <Route path="projectsoffers" element={<Project />} />
+                <Route path="myjobs" element={<MyJobs />} />
+                <Route path="invoices" element={<Invoices />} />
+*/}
               </Routes>
             </div>
           </>
@@ -191,7 +204,9 @@ const App = () => {
                 <Route path="make-invoices" element={<><MakeInvoices /></>} />
                 <Route path="community" element={<Community />} />
                 <Route path="post-success" element={<><PostSuccess /></>} />
-                <Route path="tracker" element={<Invites />} />
+                <Route path="tracker" element={<TalentInvites />} />
+                <Route path="myjobs" element={<Talentmyjobs />} />
+                <Route path="invoices" element={<TalentInvoices />} />
 
               </Routes>
             </div>

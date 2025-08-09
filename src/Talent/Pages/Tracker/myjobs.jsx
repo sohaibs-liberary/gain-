@@ -5,8 +5,9 @@ const MyJobs = () => {
   const [activeTab, setActiveTab] = useState("My Jobs");
 
   return (
-    <div className="flex">
-      <div className="w-[80%] mt-6 mx-auto">
+    <div className="w-full min-h-screen bg-white"
+    style={{ overflowX: "hidden" }}>
+      <div className="w-full max-w-5xl mt-6 mx-auto  px-2 sm:px-4 md:px-8">
         <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
         <div className="w-full bg-gray-100 rounded-lg border border-gray-300 p-16 text-center shadow-sm h-96 flex items-center justify-center">
           <div>

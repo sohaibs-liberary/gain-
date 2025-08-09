@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Tabs = ({ activeTab, setActiveTab }) => {
     const tabs = [
-        { name: "Invites", path: "/talent/tracker" },
-        { name: "Applications", path: "/talent/applications" },
-        { name: "Job Offers", path: "/talent/joboffers" },
-        { name: "Project Offers", path: "/talent/projectsoffers" },
-        { name: "My Jobs", path: "/talent/myjobs" },
-        { name: "Invoices", path: "/talent/invoices" }
+        { name: "Invites", path: "/client/tracker/" },
+        { name: "Applications", path: "/client/applications" },
+        { name: "Job Offers", path: "/client/joboffers" },
+        { name: "Project Offers", path: "/client/projectsoffers" },
+        { name: "My Jobs", path: "/client/myjobs" },
+        { name: "Invoices", path: "/client/invoices" }
     ];
     
     return (

@@ -18,7 +18,7 @@ const JobOffers = () => {
       className="w-full min-h-screen bg-white"
       style={{ overflowX: "hidden" }}
     >
-      <div className="w-full max-w-5xl mt-6 mx-auto  px-2 sm:px-4 md:px-8">
+      <div className="w-full max-w-5xl mt-6 mx-auto px-2 sm:px-4 md:px-8">
         <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
         <div className="w-full bg-gray-100 rounded-lg border border-gray-300 p-4 sm:p-8 md:p-12 shadow-sm mt-4">
           <div

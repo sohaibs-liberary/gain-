@@ -13,8 +13,9 @@ const Applications = () => {
   const [activeTab, setActiveTab] = useState("Applications");
 
   return (
-    <div className="flex flex-col min-h-screen bg-white w-full px-2 sm:px-4 py-4 items-center">
-      <div className="w-full max-w-3xl flex flex-col items-center mx-auto mt-4 sm:mt-8">
+    <div className="w-full min-h-screen bg-white"
+    style={{ overflowX: "hidden" }}>
+      <div className="w-full max-w-5xl mt-6 mx-auto  px-2 sm:px-4 md:px-8">
         <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
         <div className="w-full bg-gray-100 rounded-lg border border-gray-300 p-4 sm:p-8 md:p-12 shadow-sm min-h-[300px] flex flex-col items-center">
           {applications.map((app, idx) => (
